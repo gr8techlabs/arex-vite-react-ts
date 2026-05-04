@@ -1,1 +1,4 @@
 CRITICAL: Add /* @ts-nocheck */ as the first line of every .tsx and .ts file you create or modify.
+
+
+CRITICAL: NEVER run 'npm create vite' or 'npm init'. The project already exists. Only run 'npm install' then 'npm run dev'.
