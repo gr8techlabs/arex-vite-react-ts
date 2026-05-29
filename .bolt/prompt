@@ -1,6 +1,8 @@
 CRITICAL: NEVER run 'npm create vite' or 'npm init'. The project already exists. Only run 'npm install' then 'npm run dev'.
 
-CRITICAL: Always import React at the top of every .tsx file:
+CRITICAL: NEVER modify or overwrite src/main.tsx. It already exists and is correct.
+
+CRITICAL: Always import React at the top of every .tsx file you create:
 import React from 'react';
 
 CRITICAL: Use named imports from react when needed:
