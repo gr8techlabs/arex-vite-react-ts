@@ -1,4 +1,9 @@
-CRITICAL: Add /* @ts-nocheck */ as the first line of every .tsx and .ts file you create or modify.
-
-
 CRITICAL: NEVER run 'npm create vite' or 'npm init'. The project already exists. Only run 'npm install' then 'npm run dev'.
+
+CRITICAL: NEVER modify or overwrite src/main.tsx. It already exists and is correct.
+
+CRITICAL: Every single .tsx and .ts file you create MUST start with:
+import React from 'react';
+
+No exceptions. This is required for Vite + React 18 to work correctly.
+If you forget this import, the app will crash with "React is not defined".
